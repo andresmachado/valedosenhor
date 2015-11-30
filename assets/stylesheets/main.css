@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif; }
+
+.header {
+  background-color: rgba(38, 173, 228, 0.7);
+  z-index: 1000;
+  width: 100%;
+  position: absolute; }
+  .header ul {
+    list-style: none;
+    margin-right: 2%; }
+    .header ul li {
+      display: inline-block;
+      padding: 30px 20px; }
+      .header ul li a {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.2em; }
+        .header ul li a:hover {
+          color: #46084E;
+          text-decoration: none; }
+
+.btn-main {
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  background-color: #E4242E;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  padding-top: 12px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out; }
+  .btn-main:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #D1E751; }
+  .btn-main i {
+    color: #fff; }
+
+.main {
+  height: 100%;
+  position: relative; }
+  .main .main__background {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    right: 0;
+    top: 0; }
+
+.main__content {
+  width: 60%;
+  margin: 15% auto;
+  position: relative;
+  color: #fff; }
+  .main__content h1 {
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2%; }
+  .main__content p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 2%; }
+  .main__content a {
+    margin: 0 auto; }
+
+video#bgvid {
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  background: url(./images/vale.jpg) no-repeat;
+  background-size: cover; }
+
+section h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4.5em;
+  color: #FF6D00; }
+section h4 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #E4242E;
+  font-family: 'Covered By Your Grace', cursive; }
+section p {
+  text-align: justify;
+  line-height: 20px;
+  color: #fff; }
+section#quem-somos {
+  height: auto;
+  background: url(../images/img01.jpg) no-repeat;
+  background-size: cover; }
+  section#quem-somos .quem-somos-video {
+    margin: 0 auto; }
+section#o-que-fazemos {
+  text-align: center; }
+  section#o-que-fazemos h2 {
+    font-size: 2.5em;
+    font-family: 'Permanent Marker', cursive;
+    margin: 30px 0 30px 0;
+    color: #46084E; }
+  section#o-que-fazemos h3 {
+    font-size: 1.5em; }
+  section#o-que-fazemos p {
+    color: #E4242E;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    text-align: center; }
+  section#o-que-fazemos .oqf-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px; }
+  section#o-que-fazemos .oqf-round_image {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    margin: 20px auto 0 auto;
+    border-radius: 50%; }
+  section#o-que-fazemos .image01 {
+    background-image: url(../images/kids.png); }
+  section#o-que-fazemos .image02 {
+    background-image: url(../images/img02.png); }
+  section#o-que-fazemos .image03 {
+    background-image: url(../images/criancas.jpg); }
+  section#o-que-fazemos .image04 {
+    background-image: url(../images/teens.png); }
+  section#o-que-fazemos .image05 {
+    background-image: url(../images/kids.png); }
+  section#o-que-fazemos .image06 {
+    background-image: url(../images/img02.png); }
+
+/*# sourceMappingURL=main.css.map */
