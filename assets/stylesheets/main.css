@@ -7,7 +7,7 @@
   background-color: rgba(38, 173, 228, 0.7);
   z-index: 1000;
   width: 100%;
-  position: absolute; }
+  position: fixed; }
   .header ul {
     list-style: none;
     margin-right: 2%; }
@@ -57,25 +57,75 @@
     overflow: hidden;
     right: 0;
     top: 0; }
+  .main .main__content {
+    width: 60%;
+    margin: 15% auto;
+    position: relative;
+    color: #fff; }
+    .main .main__content h1 {
+      font-size: 4em;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 2%; }
+    .main .main__content p {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 2%; }
+    .main .main__content a {
+      margin: 0 auto; }
 
-.main__content {
-  width: 60%;
-  margin: 15% auto;
-  position: relative;
-  color: #fff; }
-  .main__content h1 {
-    font-size: 4em;
-    font-weight: bold;
-    text-transform: uppercase;
+.bounce {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  margin-left: -30px;
+  border-radius: 50%;
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite; }
+  .bounce .glyphicon {
+    font-size: 3em;
+    display: block;
     text-align: center;
-    margin-bottom: 2%; }
-  .main__content p {
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 2%; }
-  .main__content a {
-    margin: 0 auto; }
+    color: #fff;
+    line-height: 60px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased; }
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px); } }
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px); } }
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -o-transform: translateY(0); }
+  40% {
+    -o-transform: translateY(-30px); }
+  60% {
+    -o-transform: translateY(-15px); } }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
+  .bounce a:hover {
+    text-decoration: none; }
 
 video#bgvid {
   position: absolute;
@@ -90,7 +140,7 @@ section h1 {
   text-align: center;
   font-family: 'Permanent Marker', cursive;
   font-size: 4.5em;
-  color: #FF6D00; }
+  color: #FFD600; }
 section h4 {
   text-align: center;
   font-size: 1.5em;
@@ -104,6 +154,9 @@ section#quem-somos {
   height: auto;
   background: url(../images/img01.jpg) no-repeat;
   background-size: cover; }
+  section#quem-somos iframe {
+    width: 100%;
+    height: 360px; }
   section#quem-somos .quem-somos-video {
     margin: 0 auto; }
 section#o-que-fazemos {
